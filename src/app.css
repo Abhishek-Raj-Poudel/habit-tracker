@@ -1,0 +1,20 @@
+.app {
+  background-color: #262626;
+  display: grid;
+  height: 100vh;
+  gap: 0.625rem;
+  /* grid-template-columns: 1fr 1fr 1ft; */
+  grid-template-areas: "sidebar task task task details details details details details details";
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.task {
+  grid-area: task;
+}
+
+.details {
+  grid-area: details;
+}
