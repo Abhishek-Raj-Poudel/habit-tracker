@@ -1,0 +1,32 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user__profileimg {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background-color: white;
+}
+.user__profilename {
+  font-size: 20px;
+}
+.user__profileinfo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+.user__profilestatus {
+  font-size: 13px;
+}
+.user__profiledropdown {
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.user__dropdown {
+  height: 25.78px;
+  width: auto;
+}

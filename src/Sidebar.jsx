@@ -1,19 +1,27 @@
 import React from "react";
 import "./sidebar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import User from "./User";
+import Sidebutton from "./Sidebutton";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <div className="user">
-        <div className="user__profileimg"></div>
-        <div className="user__profile">
-          <div className="user__profilename">Abhishek</div>
-          <div className="user__profilestatus">member</div>
-        </div>
-        <div className="user__profiledropdown">
-          <FontAwesomeIcon class="user__dropdown" icon={faCaretDown} />
-        </div>
+      <User />
+      <div className="sidebar__allHabit">
+        <Sidebutton buttonName="All Habits" />
+      </div>
+
+      <div className="specificSection">
+        <p className="specificSection__title">SPECIFIC SECTION</p>
+        <Sidebutton buttonName="Basketball" />
+        <Sidebutton buttonName="Add Section" icon="faPlus" />
+      </div>
+
+      <div className="specificSection">
+        <p className="specificSection__title">ACHIVEMENT SECTION</p>
+        <Sidebutton buttonName="Achivement" />
+      </div>
+      <div className="sidebar__setting">
+        <Sidebutton buttonName="Setting" icons="faCog" />
       </div>
     </div>
   );
