@@ -3,22 +3,31 @@
   flex-direction: column;
   background-color: black;
   color: white;
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  /* height: 100vh; */
+  border-radius: 0 2rem 2rem 0;
+  padding: 2.1rem;
+  width: 100%;
+  height: auto;
+  max-width: 25.6rem;
 }
 
 .sidebar__allHabit {
+  height: auto;
   margin-top: 3.75rem;
 }
 
 .specificSection {
+  height: auto;
   margin-top: 2.75rem;
+}
+.specificSection__title {
+  height: auto;
+  font-size: 1.3rem;
+  margin-top: 4.4rem;
+  font-weight: bold;
 }
 
-.specificSection {
-  margin-top: 2.75rem;
-}
 .sidebar__setting {
+  justify-self: flex-end;
+  height: auto;
   margin-top: 20rem;
 }

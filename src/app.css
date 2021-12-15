@@ -1,33 +1,20 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
-
+  font-size: 10px;
+  height: 100%;
+}
 .app {
   background-color: #262626;
   display: flex;
-  flex-direction: row;
-  height: 100%;
-  gap: 0.625rem;
-  /* grid-template-columns: 1fr 1fr 1ft; */
-  /* grid-template-areas: "sidebar task task task details details details details details details"; */
+  gap: 1rem;
 }
 
-.sidebar {
-  width: 100%;
-  /* grid-area: sidebar; */
-  max-width: 256px;
-}
-
-.task {
+.app__tasks {
   width: 100%;
   max-width: 456px;
-  /* width: 100%; */
-  /* grid-area: task; */
-}
-
-.details {
-  width: 100%;
-  /* grid-area: details; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
