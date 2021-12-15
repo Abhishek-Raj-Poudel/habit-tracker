@@ -1,8 +1,14 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 .app {
   background-color: #262626;
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: 100%;
   gap: 0.625rem;
   /* grid-template-columns: 1fr 1fr 1ft; */
   /* grid-template-areas: "sidebar task task task details details details details details details"; */

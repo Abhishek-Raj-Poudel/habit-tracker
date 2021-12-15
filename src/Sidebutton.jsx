@@ -8,7 +8,7 @@ function Sidebutton({ buttonName, icons }) {
       <div className="sidebutton__icon">
         <FontAwesomeIcon
           class="sidebutton__icon__symbol"
-          icon={icons == "faCog" ? faCog : icons == "faPlus" ? faPlus : faStar}
+          icon={icons == "faCog" ? faCog : icons === "faPlus" ? faPlus : faStar}
         />
       </div>
       <p>{buttonName}</p>

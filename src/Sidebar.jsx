@@ -13,7 +13,7 @@ function Sidebar() {
       <div className="specificSection">
         <p className="specificSection__title">SPECIFIC SECTION</p>
         <Sidebutton buttonName="Basketball" />
-        <Sidebutton buttonName="Add Section" icon="faPlus" />
+        <Sidebutton buttonName="Add Section" icons="faPlus" />
       </div>
 
       <div className="specificSection">
